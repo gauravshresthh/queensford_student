@@ -37,8 +37,11 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 
 
 ## Build and Run the Docker Container
-bash
-Copy code
+
+```bash
 docker build -t my-next-app .
+# then
 docker run -p 3000:3000 my-next-app
+```
+
 Visit http://localhost:3000 to test your Dockerized Next.js app.
